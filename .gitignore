@@ -1,0 +1,39 @@
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# IntelliJ IDEA project files
+.idea/
+
+# Eclipse project files
+.classpath
+.project
+.settings/
+
+# NetBeans project files
+nbproject/
+
+# Maven build directory
+target/
+
+# Gradle build directory
+build/
+
+# Dependencies
+lib/
+
+# Local configuration file (used by some IDEs and build tools)
+*.iml
+
+# macOS-specific files
+.DS_Store
+
+# Windows-specific files
+Thumbs.db
+
+
