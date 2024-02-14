@@ -2,11 +2,10 @@ package org.dnyanyog.dto;
 
 import org.springframework.stereotype.Component;
 
-import com.fasterxml.jackson.annotation.JsonInclude;
-
+@Component
 //@JsonInclude(JsonInclude.Include.NON_NULL)
 public class UserData {
-	
+
 	private String username;
 	private String password;
 	private String email;
@@ -43,6 +42,5 @@ public class UserData {
 	public void setAge(String age) {
 		this.age = age;
 	}
-
 
 }

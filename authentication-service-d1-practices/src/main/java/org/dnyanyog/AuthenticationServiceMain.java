@@ -7,7 +7,7 @@ import java.time.Duration;
 
 @SpringBootApplication // API Application
 public class AuthenticationServiceMain {
-  public  static void main(String[] args) throws InterruptedException {
-    SpringApplication.run(AuthenticationServiceMain.class, args);
-  }
+	public static void main(String[] args) {
+		SpringApplication.run(AuthenticationServiceMain.class, args);
+	}
 }
