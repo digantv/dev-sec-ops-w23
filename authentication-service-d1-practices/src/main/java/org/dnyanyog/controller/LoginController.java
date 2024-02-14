@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class LoginController {
 
 	@Autowired
-	LoginServiceImpl loginService;
+	private LoginServiceImpl loginService;
 	
 	
 	@PostMapping(
